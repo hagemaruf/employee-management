@@ -1,58 +1,62 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Projects\\EmployeeClient\\EmployeeClient\\",
+  "WorkspaceRootPath": "C:\\Projects\\employee-management\\frontend\\EmployeeClient\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E73B8B11-7517-D872-50AE-BD0681A482FA}|EmployeeClient\\EmployeeClient.csproj|c:\\projects\\employeeclient\\employeeclient\\employeeclient\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E73B8B11-7517-D872-50AE-BD0681A482FA}|EmployeeClient\\EmployeeClient.csproj|solutionrelative:employeeclient\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFFB5F4E-4948-443A-B97A-46E9636D45FE}|EmployeeClient\\EmployeeClient.csproj|C:\\Projects\\EmployeeClient\\EmployeeClient\\employeeclient\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AFFB5F4E-4948-443A-B97A-46E9636D45FE}|EmployeeClient\\EmployeeClient.csproj|solutionrelative:employeeclient\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E73B8B11-7517-D872-50AE-BD0681A482FA}|EmployeeClient\\EmployeeClient.csproj|c:\\projects\\employeeclient\\employeeclient\\employeeclient\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E73B8B11-7517-D872-50AE-BD0681A482FA}|EmployeeClient\\EmployeeClient.csproj|solutionrelative:employeeclient\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E73B8B11-7517-D872-50AE-BD0681A482FA}|EmployeeClient\\EmployeeClient.csproj|c:\\projects\\employeeclient\\employeeclient\\employeeclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E73B8B11-7517-D872-50AE-BD0681A482FA}|EmployeeClient\\EmployeeClient.csproj|solutionrelative:employeeclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E73B8B11-7517-D872-50AE-BD0681A482FA}|EmployeeClient\\EmployeeClient.csproj|c:\\projects\\employeeclient\\employeeclient\\employeeclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E73B8B11-7517-D872-50AE-BD0681A482FA}|EmployeeClient\\EmployeeClient.csproj|solutionrelative:employeeclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFFB5F4E-4948-443A-B97A-46E9636D45FE}|EmployeeClient\\EmployeeClient.csproj|C:\\Projects\\EmployeeClient\\EmployeeClient\\employeeclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AFFB5F4E-4948-443A-B97A-46E9636D45FE}|EmployeeClient\\EmployeeClient.csproj|solutionrelative:employeeclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E73B8B11-7517-D872-50AE-BD0681A482FA}|EmployeeClient\\EmployeeClient.csproj|c:\\projects\\employeeclient\\employeeclient\\employeeclient\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E73B8B11-7517-D872-50AE-BD0681A482FA}|EmployeeClient\\EmployeeClient.csproj|solutionrelative:employeeclient\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E73B8B11-7517-D872-50AE-BD0681A482FA}|EmployeeClient\\EmployeeClient.csproj|c:\\projects\\employeeclient\\employeeclient\\employeeclient\\services\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E73B8B11-7517-D872-50AE-BD0681A482FA}|EmployeeClient\\EmployeeClient.csproj|c:\\projects\\employee-management\\frontend\\employeeclient\\employeeclient\\services\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E73B8B11-7517-D872-50AE-BD0681A482FA}|EmployeeClient\\EmployeeClient.csproj|solutionrelative:employeeclient\\services\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E73B8B11-7517-D872-50AE-BD0681A482FA}|EmployeeClient\\EmployeeClient.csproj|c:\\projects\\employeeclient\\employeeclient\\employeeclient\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E73B8B11-7517-D872-50AE-BD0681A482FA}|EmployeeClient\\EmployeeClient.csproj|c:\\projects\\employee-management\\frontend\\employeeclient\\employeeclient\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E73B8B11-7517-D872-50AE-BD0681A482FA}|EmployeeClient\\EmployeeClient.csproj|solutionrelative:employeeclient\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E73B8B11-7517-D872-50AE-BD0681A482FA}|EmployeeClient\\EmployeeClient.csproj|c:\\projects\\employeeclient\\employeeclient\\employeeclient\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E73B8B11-7517-D872-50AE-BD0681A482FA}|EmployeeClient\\EmployeeClient.csproj|c:\\projects\\employee-management\\frontend\\employeeclient\\employeeclient\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E73B8B11-7517-D872-50AE-BD0681A482FA}|EmployeeClient\\EmployeeClient.csproj|solutionrelative:employeeclient\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E73B8B11-7517-D872-50AE-BD0681A482FA}|EmployeeClient\\EmployeeClient.csproj|c:\\projects\\employee-management\\frontend\\employeeclient\\employeeclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E73B8B11-7517-D872-50AE-BD0681A482FA}|EmployeeClient\\EmployeeClient.csproj|solutionrelative:employeeclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E73B8B11-7517-D872-50AE-BD0681A482FA}|EmployeeClient\\EmployeeClient.csproj|c:\\projects\\employee-management\\frontend\\employeeclient\\employeeclient\\models\\tokenresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E73B8B11-7517-D872-50AE-BD0681A482FA}|EmployeeClient\\EmployeeClient.csproj|solutionrelative:employeeclient\\models\\tokenresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E73B8B11-7517-D872-50AE-BD0681A482FA}|EmployeeClient\\EmployeeClient.csproj|C:\\Projects\\employee-management\\frontend\\EmployeeClient\\employeeclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E73B8B11-7517-D872-50AE-BD0681A482FA}|EmployeeClient\\EmployeeClient.csproj|solutionrelative:employeeclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E73B8B11-7517-D872-50AE-BD0681A482FA}|EmployeeClient\\EmployeeClient.csproj|c:\\projects\\employee-management\\frontend\\employeeclient\\employeeclient\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E73B8B11-7517-D872-50AE-BD0681A482FA}|EmployeeClient\\EmployeeClient.csproj|solutionrelative:employeeclient\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E73B8B11-7517-D872-50AE-BD0681A482FA}|EmployeeClient\\EmployeeClient.csproj|c:\\projects\\employee-management\\frontend\\employeeclient\\employeeclient\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E73B8B11-7517-D872-50AE-BD0681A482FA}|EmployeeClient\\EmployeeClient.csproj|solutionrelative:employeeclient\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AFFB5F4E-4948-443A-B97A-46E9636D45FE}|EmployeeClient\\EmployeeClient.csproj|C:\\Projects\\EmployeeClient\\EmployeeClient\\employeeclient\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AFFB5F4E-4948-443A-B97A-46E9636D45FE}|EmployeeClient\\EmployeeClient.csproj|solutionrelative:employeeclient\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E73B8B11-7517-D872-50AE-BD0681A482FA}|EmployeeClient\\EmployeeClient.csproj|c:\\projects\\employeeclient\\employeeclient\\employeeclient\\models\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E73B8B11-7517-D872-50AE-BD0681A482FA}|EmployeeClient\\EmployeeClient.csproj|c:\\projects\\employee-management\\frontend\\employeeclient\\employeeclient\\models\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E73B8B11-7517-D872-50AE-BD0681A482FA}|EmployeeClient\\EmployeeClient.csproj|solutionrelative:employeeclient\\models\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E73B8B11-7517-D872-50AE-BD0681A482FA}|EmployeeClient\\EmployeeClient.csproj|c:\\projects\\employeeclient\\employeeclient\\employeeclient\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E73B8B11-7517-D872-50AE-BD0681A482FA}|EmployeeClient\\EmployeeClient.csproj|solutionrelative:employeeclient\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E73B8B11-7517-D872-50AE-BD0681A482FA}|EmployeeClient\\EmployeeClient.csproj|c:\\projects\\employee-management\\frontend\\employeeclient\\employeeclient\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E73B8B11-7517-D872-50AE-BD0681A482FA}|EmployeeClient\\EmployeeClient.csproj|solutionrelative:employeeclient\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFFB5F4E-4948-443A-B97A-46E9636D45FE}|EmployeeClient\\EmployeeClient.csproj|C:\\Projects\\employee-management\\frontend\\EmployeeClient\\employeeclient\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AFFB5F4E-4948-443A-B97A-46E9636D45FE}|EmployeeClient\\EmployeeClient.csproj|solutionrelative:employeeclient\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E73B8B11-7517-D872-50AE-BD0681A482FA}|EmployeeClient\\EmployeeClient.csproj|C:\\Projects\\employee-management\\frontend\\EmployeeClient\\employeeclient\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E73B8B11-7517-D872-50AE-BD0681A482FA}|EmployeeClient\\EmployeeClient.csproj|solutionrelative:employeeclient\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFFB5F4E-4948-443A-B97A-46E9636D45FE}|EmployeeClient\\EmployeeClient.csproj|C:\\Projects\\employee-management\\frontend\\EmployeeClient\\employeeclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AFFB5F4E-4948-443A-B97A-46E9636D45FE}|EmployeeClient\\EmployeeClient.csproj|solutionrelative:employeeclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFFB5F4E-4948-443A-B97A-46E9636D45FE}|EmployeeClient\\EmployeeClient.csproj|C:\\Projects\\employee-management\\frontend\\EmployeeClient\\employeeclient\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AFFB5F4E-4948-443A-B97A-46E9636D45FE}|EmployeeClient\\EmployeeClient.csproj|solutionrelative:employeeclient\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,36 +78,50 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form3.cs [Design]",
-              "DocumentMoniker": "C:\\Projects\\EmployeeClient\\EmployeeClient\\EmployeeClient\\Form3.cs",
-              "RelativeDocumentMoniker": "EmployeeClient\\Form3.cs",
-              "ToolTip": "C:\\Projects\\EmployeeClient\\EmployeeClient\\EmployeeClient\\Form3.cs [Design]",
-              "RelativeToolTip": "EmployeeClient\\Form3.cs [Design]",
+              "DocumentIndex": 4,
+              "Title": "TokenResponse.cs",
+              "DocumentMoniker": "C:\\Projects\\employee-management\\frontend\\EmployeeClient\\EmployeeClient\\Models\\TokenResponse.cs",
+              "RelativeDocumentMoniker": "EmployeeClient\\Models\\TokenResponse.cs",
+              "ToolTip": "C:\\Projects\\employee-management\\frontend\\EmployeeClient\\EmployeeClient\\Models\\TokenResponse.cs",
+              "RelativeToolTip": "EmployeeClient\\Models\\TokenResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-23T01:38:31.358Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Projects\\EmployeeClient\\EmployeeClient\\EmployeeClient\\Form1.cs",
-              "RelativeDocumentMoniker": "EmployeeClient\\Form1.cs",
-              "ToolTip": "C:\\Projects\\EmployeeClient\\EmployeeClient\\EmployeeClient\\Form1.cs",
-              "RelativeToolTip": "EmployeeClient\\Form1.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAUwB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-23T02:27:19.315Z",
+              "WhenOpened": "2026-09-25T14:57:59.432Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Projects\\employee-management\\frontend\\EmployeeClient\\EmployeeClient\\Models\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "EmployeeClient\\Models\\LoginRequest.cs",
+              "ToolTip": "C:\\Projects\\employee-management\\frontend\\EmployeeClient\\EmployeeClient\\Models\\LoginRequest.cs",
+              "RelativeToolTip": "EmployeeClient\\Models\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T13:46:32.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApiClient.cs",
+              "DocumentMoniker": "C:\\Projects\\employee-management\\frontend\\EmployeeClient\\EmployeeClient\\Services\\ApiClient.cs",
+              "RelativeDocumentMoniker": "EmployeeClient\\Services\\ApiClient.cs",
+              "ToolTip": "C:\\Projects\\employee-management\\frontend\\EmployeeClient\\EmployeeClient\\Services\\ApiClient.cs*",
+              "RelativeToolTip": "EmployeeClient\\Services\\ApiClient.cs*",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAzwIsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T14:03:58.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Projects\\EmployeeClient\\EmployeeClient\\EmployeeClient\\Form1.cs",
+              "DocumentMoniker": "C:\\Projects\\employee-management\\frontend\\EmployeeClient\\EmployeeClient\\Form1.cs",
               "RelativeDocumentMoniker": "EmployeeClient\\Form1.cs",
-              "ToolTip": "C:\\Projects\\EmployeeClient\\EmployeeClient\\EmployeeClient\\Form1.cs [Design]",
+              "ToolTip": "C:\\Projects\\employee-management\\frontend\\EmployeeClient\\EmployeeClient\\Form1.cs [Design]",
               "RelativeToolTip": "EmployeeClient\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-23T02:24:32.613Z",
@@ -111,82 +129,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form2.cs [Design]",
-              "DocumentMoniker": "C:\\Projects\\EmployeeClient\\EmployeeClient\\EmployeeClient\\Form2.cs",
-              "RelativeDocumentMoniker": "EmployeeClient\\Form2.cs",
-              "ToolTip": "C:\\Projects\\EmployeeClient\\EmployeeClient\\EmployeeClient\\Form2.cs [Design]",
-              "RelativeToolTip": "EmployeeClient\\Form2.cs [Design]",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Projects\\employee-management\\frontend\\EmployeeClient\\EmployeeClient\\Form1.cs",
+              "RelativeDocumentMoniker": "EmployeeClient\\Form1.cs",
+              "ToolTip": "C:\\Projects\\employee-management\\frontend\\EmployeeClient\\EmployeeClient\\Form1.cs",
+              "RelativeToolTip": "EmployeeClient\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-23T01:38:28.495Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Form2.cs",
-              "DocumentMoniker": "C:\\Projects\\EmployeeClient\\EmployeeClient\\EmployeeClient\\Form2.cs",
-              "RelativeDocumentMoniker": "EmployeeClient\\Form2.cs",
-              "ToolTip": "C:\\Projects\\EmployeeClient\\EmployeeClient\\EmployeeClient\\Form2.cs",
-              "RelativeToolTip": "EmployeeClient\\Form2.cs",
-              "ViewState": "AgIAAJsAAAAAAAAAAAApwLgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-22T15:15:40.216Z",
+              "WhenOpened": "2026-09-23T02:27:19.315Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form3.cs [Design]",
-              "DocumentMoniker": "C:\\Projects\\EmployeeClient\\EmployeeClient\\EmployeeClient\\Form3.cs",
-              "RelativeDocumentMoniker": "EmployeeClient\\Form3.cs",
-              "ToolTip": "C:\\Projects\\EmployeeClient\\EmployeeClient\\EmployeeClient\\Form3.cs [Design]",
-              "RelativeToolTip": "EmployeeClient\\Form3.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-22T15:12:00.868Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "Form3.cs",
-              "DocumentMoniker": "C:\\Projects\\EmployeeClient\\EmployeeClient\\EmployeeClient\\Form3.cs",
+              "DocumentMoniker": "C:\\Projects\\employee-management\\frontend\\EmployeeClient\\EmployeeClient\\Form3.cs",
               "RelativeDocumentMoniker": "EmployeeClient\\Form3.cs",
-              "ToolTip": "C:\\Projects\\EmployeeClient\\EmployeeClient\\EmployeeClient\\Form3.cs",
+              "ToolTip": "C:\\Projects\\employee-management\\frontend\\EmployeeClient\\EmployeeClient\\Form3.cs",
               "RelativeToolTip": "EmployeeClient\\Form3.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAUwFgAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAA1wDEAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-22T15:06:51.713Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Form2.cs [Design]",
-              "DocumentMoniker": "C:\\Projects\\EmployeeClient\\EmployeeClient\\EmployeeClient\\Form2.cs",
-              "RelativeDocumentMoniker": "EmployeeClient\\Form2.cs",
-              "ToolTip": "C:\\Projects\\EmployeeClient\\EmployeeClient\\EmployeeClient\\Form2.cs [Design]",
-              "RelativeToolTip": "EmployeeClient\\Form2.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-22T14:49:30.6Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Projects\\EmployeeClient\\EmployeeClient\\EmployeeClient\\Form1.cs",
-              "RelativeDocumentMoniker": "EmployeeClient\\Form1.cs",
-              "ToolTip": "C:\\Projects\\EmployeeClient\\EmployeeClient\\EmployeeClient\\Form1.cs [Design]",
-              "RelativeToolTip": "EmployeeClient\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-22T14:39:23.013Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Projects\\EmployeeClient\\EmployeeClient\\EmployeeClient\\Models\\Employee.cs",
+              "DocumentMoniker": "C:\\Projects\\employee-management\\frontend\\EmployeeClient\\EmployeeClient\\Models\\Employee.cs",
               "RelativeDocumentMoniker": "EmployeeClient\\Models\\Employee.cs",
-              "ToolTip": "C:\\Projects\\EmployeeClient\\EmployeeClient\\EmployeeClient\\Models\\Employee.cs",
+              "ToolTip": "C:\\Projects\\employee-management\\frontend\\EmployeeClient\\EmployeeClient\\Models\\Employee.cs",
               "RelativeToolTip": "EmployeeClient\\Models\\Employee.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -195,40 +168,86 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ApiClient.cs",
-              "DocumentMoniker": "C:\\Projects\\EmployeeClient\\EmployeeClient\\EmployeeClient\\Services\\ApiClient.cs",
-              "RelativeDocumentMoniker": "EmployeeClient\\Services\\ApiClient.cs",
-              "ToolTip": "C:\\Projects\\EmployeeClient\\EmployeeClient\\EmployeeClient\\Services\\ApiClient.cs",
-              "RelativeToolTip": "EmployeeClient\\Services\\ApiClient.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAYwDYAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Projects\\employee-management\\frontend\\EmployeeClient\\EmployeeClient\\Form2.cs",
+              "RelativeDocumentMoniker": "EmployeeClient\\Form2.cs",
+              "ToolTip": "C:\\Projects\\employee-management\\frontend\\EmployeeClient\\EmployeeClient\\Form2.cs",
+              "RelativeToolTip": "EmployeeClient\\Form2.cs",
+              "ViewState": "AgIAAKEAAAAAAAAAAAAAAK8AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-22T14:03:58.311Z",
+              "WhenOpened": "2026-09-22T15:15:40.216Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 8,
               "Title": "AuthResponse.cs",
-              "DocumentMoniker": "C:\\Projects\\EmployeeClient\\EmployeeClient\\EmployeeClient\\Models\\AuthResponse.cs",
+              "DocumentMoniker": "C:\\Projects\\employee-management\\frontend\\EmployeeClient\\EmployeeClient\\Models\\AuthResponse.cs",
               "RelativeDocumentMoniker": "EmployeeClient\\Models\\AuthResponse.cs",
-              "ToolTip": "C:\\Projects\\EmployeeClient\\EmployeeClient\\EmployeeClient\\Models\\AuthResponse.cs",
+              "ToolTip": "C:\\Projects\\employee-management\\frontend\\EmployeeClient\\EmployeeClient\\Models\\AuthResponse.cs",
               "RelativeToolTip": "EmployeeClient\\Models\\AuthResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-22T13:47:03.162Z"
+              "WhenOpened": "2026-09-22T13:47:03.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Form3.cs [Design]",
+              "DocumentMoniker": "C:\\Projects\\employee-management\\frontend\\EmployeeClient\\EmployeeClient\\Form3.cs",
+              "RelativeDocumentMoniker": "EmployeeClient\\Form3.cs",
+              "ToolTip": "C:\\Projects\\employee-management\\frontend\\EmployeeClient\\EmployeeClient\\Form3.cs [Design]",
+              "RelativeToolTip": "EmployeeClient\\Form3.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T01:38:31.358Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Form2.cs [Design]",
+              "DocumentMoniker": "C:\\Projects\\employee-management\\frontend\\EmployeeClient\\EmployeeClient\\Form2.cs",
+              "RelativeDocumentMoniker": "EmployeeClient\\Form2.cs",
+              "ToolTip": "C:\\Projects\\EmployeeClient\\EmployeeClient\\EmployeeClient\\Form2.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\EmployeeClient\\EmployeeClient\\EmployeeClient\\Form2.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T14:49:30.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Form3.cs [Design]",
+              "DocumentMoniker": "C:\\Projects\\employee-management\\frontend\\EmployeeClient\\EmployeeClient\\Form3.cs",
+              "RelativeDocumentMoniker": "EmployeeClient\\Form3.cs",
+              "ToolTip": "C:\\Projects\\EmployeeClient\\EmployeeClient\\EmployeeClient\\Form3.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\EmployeeClient\\EmployeeClient\\EmployeeClient\\Form3.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T15:12:00.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Form2.cs [Design]",
+              "DocumentMoniker": "C:\\Projects\\employee-management\\frontend\\EmployeeClient\\EmployeeClient\\Form2.cs",
+              "RelativeDocumentMoniker": "EmployeeClient\\Form2.cs",
+              "ToolTip": "C:\\Projects\\employee-management\\frontend\\EmployeeClient\\EmployeeClient\\Form2.cs [Design]",
+              "RelativeToolTip": "EmployeeClient\\Form2.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T01:38:28.495Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "LoginRequest.cs",
-              "DocumentMoniker": "C:\\Projects\\EmployeeClient\\EmployeeClient\\EmployeeClient\\Models\\LoginRequest.cs",
-              "RelativeDocumentMoniker": "EmployeeClient\\Models\\LoginRequest.cs",
-              "ToolTip": "C:\\Projects\\EmployeeClient\\EmployeeClient\\EmployeeClient\\Models\\LoginRequest.cs",
-              "RelativeToolTip": "EmployeeClient\\Models\\LoginRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Projects\\employee-management\\frontend\\EmployeeClient\\EmployeeClient\\Form1.cs",
+              "RelativeDocumentMoniker": "EmployeeClient\\Form1.cs",
+              "ToolTip": "C:\\Projects\\EmployeeClient\\EmployeeClient\\EmployeeClient\\Form1.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\EmployeeClient\\EmployeeClient\\EmployeeClient\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-22T13:46:32.714Z"
+              "WhenOpened": "2026-09-22T14:39:23.013Z"
             }
           ]
         }

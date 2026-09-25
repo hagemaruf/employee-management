@@ -3,6 +3,7 @@ package employee_api.security;
 import io.jsonwebtoken.JwtException;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.security.Keys;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import javax.crypto.SecretKey;
@@ -17,7 +18,8 @@ public class JwtService {
                             .getBytes()
             );
 
-    private final long expirationTime = 1000 * 60 * 60; // 1 hour
+    @Value("${jwt.expiration:900000}")
+    private long expirationTime;
 
     public String generateToken(String username) {
 
@@ -44,18 +46,18 @@ public class JwtService {
     }
 
     public boolean isTokenValid(
-        String token,
-        org.springframework.security.core.userdetails.UserDetails userDetails) {
+            String token,
+            org.springframework.security.core.userdetails.UserDetails userDetails) {
 
         try {
 
-                String username = extractUsername(token);
+            String username = extractUsername(token);
 
-                return username.equals(userDetails.getUsername());
+            return username.equals(userDetails.getUsername());
 
         } catch (JwtException | IllegalArgumentException e) {
 
-                return false;
+            return false;
         }
     }
 }

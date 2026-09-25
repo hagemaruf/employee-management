@@ -2,22 +2,29 @@ package employee_api.dto;
 
 public class AuthResponse {
 
-    private String token;
+    private String accessToken;
+    private String refreshToken;
     private String tokenType;
     private long expiresIn;
 
     public AuthResponse(
-            String token,
+            String accessToken,
+            String refreshToken,
             String tokenType,
             long expiresIn) {
 
-        this.token = token;
+        this.accessToken = accessToken;
+        this.refreshToken = refreshToken;
         this.tokenType = tokenType;
         this.expiresIn = expiresIn;
     }
 
-    public String getToken() {
-        return token;
+    public String getAccessToken() {
+        return accessToken;
+    }
+
+    public String getRefreshToken() {
+        return refreshToken;
     }
 
     public String getTokenType() {

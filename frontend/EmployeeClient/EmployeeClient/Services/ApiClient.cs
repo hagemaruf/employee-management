@@ -1,5 +1,6 @@
-﻿using System.Net.Http.Json;
-using EmployeeClient.Models;
+﻿using EmployeeClient.Models;
+using System.Net.Http.Headers;
+using System.Net.Http.Json;
 
 namespace EmployeeClient.Services;
 
@@ -7,83 +8,136 @@ public class ApiClient
 {
     private readonly HttpClient _httpClient;
 
-    public string? AccessToken { get; private set; }
+    private string? _accessToken;
+    private string? _refreshToken;
 
-    public ApiClient()
+    public ApiClient(string baseUrl)
     {
         _httpClient = new HttpClient
         {
-            BaseAddress = new Uri("http://localhost:8080")
+            BaseAddress = new Uri(baseUrl)
         };
-
-        _httpClient.Timeout = TimeSpan.FromSeconds(30);
     }
 
-    public async Task<AuthResponse> LoginAsync(
+    // =========================
+    // LOGIN
+    // =========================
+
+    public async Task<bool> LoginAsync(
         string username,
         string password)
     {
-        var request = new LoginRequest
-        {
-            Username = username,
-            Password = password
-        };
-
         var response = await _httpClient.PostAsJsonAsync(
             "/api/auth/login",
-            request);
+            new
+            {
+                username,
+                password
+            });
 
-        response.EnsureSuccessStatusCode();
-
-        var authResponse =
-            await response.Content.ReadFromJsonAsync<AuthResponse>();
-
-        if (authResponse is null)
+        if (!response.IsSuccessStatusCode)
         {
-            throw new InvalidOperationException(
-                "Login response is empty.");
+            return false;
         }
 
-        AccessToken = authResponse.Token;
+        var tokenResponse =
+            await response.Content
+                .ReadFromJsonAsync<TokenResponse>();
 
-        return authResponse;
+        if (tokenResponse == null)
+        {
+            return false;
+        }
+
+        _accessToken = tokenResponse.AccessToken;
+        _refreshToken = tokenResponse.RefreshToken;
+
+        return true;
     }
 
-    public void Logout()
+    // =========================
+    // REFRESH TOKEN
+    // =========================
+
+    public async Task<bool> RefreshTokenAsync()
     {
-        AccessToken = null;
+        if (string.IsNullOrEmpty(_refreshToken))
+        {
+            return false;
+        }
+
+        var response = await _httpClient.PostAsJsonAsync(
+            "/api/auth/refresh",
+            new
+            {
+                refreshToken = _refreshToken
+            });
+
+        if (!response.IsSuccessStatusCode)
+        {
+            return false;
+        }
+
+        var tokenResponse =
+            await response.Content
+                .ReadFromJsonAsync<TokenResponse>();
+
+        if (tokenResponse == null)
+        {
+            return false;
+        }
+
+        // Refresh Token Rotation
+        _accessToken = tokenResponse.AccessToken;
+        _refreshToken = tokenResponse.RefreshToken;
+
+        return true;
     }
+
+    // =========================
+    // GET EMPLOYEES
+    // =========================
 
     public async Task<List<Employee>> GetEmployeesAsync()
     {
-        if (string.IsNullOrEmpty(AccessToken))
+        var response =
+            await GetAsync("/api/employees");
+
+        if (!response.IsSuccessStatusCode)
         {
-            throw new InvalidOperationException(
-                "User is not authenticated.");
+            return new List<Employee>();
         }
 
-        using var request = new HttpRequestMessage(
+        return await response.Content
+            .ReadFromJsonAsync<List<Employee>>()
+            ?? new List<Employee>();
+    }
+
+    // =========================
+    // GENERIC GET
+    // =========================
+
+    public async Task<HttpResponseMessage> GetAsync(
+        string endpoint)
+    {
+        var request = new HttpRequestMessage(
             HttpMethod.Get,
-            "/api/employees");
+            endpoint);
 
-        request.Headers.Authorization =
-            new System.Net.Http.Headers.AuthenticationHeaderValue(
-                "Bearer",
-                AccessToken);
+        if (!string.IsNullOrEmpty(_accessToken))
+        {
+            request.Headers.Authorization =
+                new AuthenticationHeaderValue(
+                    "Bearer",
+                    _accessToken);
+        }
 
-        var response = await _httpClient.SendAsync(request);
-
-        response.EnsureSuccessStatusCode();
-
-        var employees =
-            await response.Content.ReadFromJsonAsync<List<Employee>>();
-
-        return employees ?? new List<Employee>();
+        return await _httpClient.SendAsync(request);
     }
 
     public async Task<Employee> CreateEmployeeAsync(Employee employee)
     {
-        if (string.IsNullOrEmpty(AccessToken))
+        if (string.IsNullOrEmpty(_accessToken))
         {
             throw new InvalidOperationException(
                 "User is not authenticated.");
@@ -96,7 +150,7 @@ public class ApiClient
         request.Headers.Authorization =
             new System.Net.Http.Headers.AuthenticationHeaderValue(
                 "Bearer",
-                AccessToken);
+                _accessToken);
 
         request.Content = JsonContent.Create(employee);
 
@@ -133,7 +187,7 @@ public class ApiClient
     long id,
     Employee employee)
     {
-        if (string.IsNullOrEmpty(AccessToken))
+        if (string.IsNullOrEmpty(_accessToken))
         {
             throw new InvalidOperationException(
                 "User is not authenticated.");
@@ -146,7 +200,7 @@ public class ApiClient
         request.Headers.Authorization =
             new System.Net.Http.Headers.AuthenticationHeaderValue(
                 "Bearer",
-                AccessToken);
+                _accessToken);
 
         request.Content = JsonContent.Create(employee);
 
@@ -166,9 +220,10 @@ public class ApiClient
         return updatedEmployee;
     }
 
+
     public async Task DeleteEmployeeAsync(long id)
     {
-        if (string.IsNullOrEmpty(AccessToken))
+        if (string.IsNullOrEmpty(_accessToken))
         {
             throw new InvalidOperationException(
                 "User is not authenticated.");
@@ -181,10 +236,15 @@ public class ApiClient
         request.Headers.Authorization =
             new System.Net.Http.Headers.AuthenticationHeaderValue(
                 "Bearer",
-                AccessToken);
+                _accessToken);
 
         var response = await _httpClient.SendAsync(request);
 
         response.EnsureSuccessStatusCode();
+    }
+
+    public void Logout()
+    {
+        _accessToken = null;
     }
 }

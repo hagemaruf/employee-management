@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wdVydQdRdnU=",
+  "dgSpecHash": "bo7jYMGrfKY=",
   "success": true,
-  "projectFilePath": "C:\\Projects\\EmployeeClient\\EmployeeClient\\EmployeeClient\\EmployeeClient.csproj",
+  "projectFilePath": "C:\\Projects\\employee-management\\frontend\\EmployeeClient\\EmployeeClient\\EmployeeClient.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
