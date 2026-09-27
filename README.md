@@ -517,5 +517,3 @@ https://github.com/hagemaruf
 LinkedIn:
 
 https://linkedin.com/in/hagemaruf/
-
-```
